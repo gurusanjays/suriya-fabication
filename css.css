@@ -56,21 +56,13 @@ body{
     }
 }
 .box1{
-   
-    
     background-color: rgb(255, 255, 255);
-    
     position: relative;
     height: 80vh;
     width:100% ;
-
-    
-    
     border-bottom-left-radius: 30%;
     background: url(img/1.jpg) center/cover fixed no-repeat ;
-    
-    transition: background 1s ease-in;
-    
+    transition: background 1s ease-in; 
 }
 
 
@@ -220,15 +212,13 @@ li a:hover{
     position: relative;
     background-color:rgba(255,255,255,0.2);
     display:inline-flex;
-    margin-left: 10%;
+    margin-left: 25%;
     margin-top: 5%;
     box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.60);
     height: 80px;
-    width: 150px;
+    width: 50%;
     border-radius: 10px;
-    
-    
-    
+    justify-content: center;
 }
 #au{
     font-size: 30px;
@@ -236,6 +226,7 @@ li a:hover{
     font-family: "Roboto", serif;
     font-weight: 600;
     opacity: 80%;
+    
     
     
 }
@@ -287,6 +278,310 @@ li a:hover{
     left: 20px;
     margin-right: 2px;
 }
+.box5{
+    background-color: white;
+    width: 100%;
+    
+}
+.ou{
+    top: 30%;
+    left: 15%;
+    position: relative;
+    width: 80%;
+    
+}
+#our{
+    
+    left: 20%;
+    font-size: 40px;
+    
+    
+}
+#our-description{
+    
+    margin-left: 8%;
+    font-size: 20px;
+}
+.ex{
+    display: flex;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    left: 5%;
+    width: 60%;
+
+}
+#ex1{
+    font-size: 30px;
+    color: #ed8936;
+    text-align: center;
+}
+#ex2{
+    font-size: 25px;
+
+}
+.box6{
+    background-color: rgb(255, 255, 255);
+    width: 100%; 
+    height:  110vh;    
+        
+}
+.ser{
+    
+    position: relative;
+    width: 80%;
+    margin-top: 6%;
+    left: 10%;
+    display: flex;
+    
+    
+    
+    
+}
+.ser1{
+  height: 200px;
+  width: 600px;
+  background-color: #ed8936;
+    border-radius: 20px;
+    list-style: none;
+    margin-right: 50px;
+    box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.60);
+   
+    
+}
+.ser1:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+.ser2{
+     margin-top: 8px;
+     border-radius: 20px;
+     background-color: white;
+     height: 200px;
+     text-align: center;
+     cursor: pointer;
+}
+#sericons{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #ed8936;
+}
+#serhead{
+    font-size: 30px;
+
+}
+#serdes{
+    left: 1.5px;
+    right: 1.5px;
+    font-size: 16px;
+}
+.box7{
+    background-color: white;
+    width: 100%;
+    height: 95vh;
+    
+}
+.por{
+    
+    position: relative;
+    width: 90%;
+    margin-top: 6%;
+    left: 5%;
+    display: flex;
+}
+.por1{
+  height: 350px;
+  width: 600px;
+  background-color:#2e4362;
+    border-radius: 20px;
+    list-style: none;
+    margin-right: 50px;
+    box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.60);
+    text-align: center;
+    cursor: pointer;
+   
+    
+}
+.por1:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease-in-out;
+}
+.por2{
+     margin-top: 50px;
+     background-color: white;
+     height: 175px;
+     cursor: pointer;
+     border-bottom-left-radius:20px;
+     border-bottom-right-radius:20px;
+     
+}
+#poricons{
+    
+    font-size: 40px;
+    margin-top: 80px;
+    color: white;}
+#porhead{
+    font-size: 30px;
+    margin-top: 30px;
+
+    
+
+}
+#pordes{
+    left: 1.5px;
+    right: 1.5px;
+    font-size: 16px;
+    top: 5px;
+}
+.box8{
+    background-color: white;
+     width: 100%;
+    height: 125vh;
+}
+.getmain{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.getleft{
+    height: 100vh;
+    width: 51%;
+    background-color: white;
+    margin-left: 2%;
+    
+
+}
+.getright{
+    height: 80vh;
+    width: 41%;
+    margin-right: 2%;
+    background-color:rgb(255, 255, 255);
+    margin-right: 5%;
+    
+}
+#conhead{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.information{
+    list-style: none;
+}
+.Address{
+    display: flex;
+}
+
+#infoicons{
+    margin-top: 23px;
+    font-size: 25px;
+    color: #ed8936;
+    
+}
+#infoh{
+    margin-left: 25px; 
+}
+#infohead{
+    font-size: 25px;
+}
+#infoheaddes{
+    font-size: 17px;
+}
+.sendhead{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.inputbox{
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.60);
+
+    
+    
+}
+.inputlist{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+.inputname,.inputemail,.inputphone,.inputservice{
+    height: 40px;
+    width: 85%;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.778);
+    margin-top: 40px;
+    
+}
+.inputservice{
+    height: 45px;
+    width: 86%;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.778);
+    
+}
+.inputname:focus,.inputemail:focus,.inputphone:focus,.inputservice:focus,.inputproject:focus{
+   outline: none;
+   border-width: 2px;
+    border-color: blue;
+
+}
+
+.inputproject{
+    height: 100px;
+    width: 85%;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.778);
+    
+}
+.inputsumbit{
+    height: 40px;
+    width: 86%;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #ed8936;
+    color: white;
+    cursor: pointer;
+    border-color: #ed8936;
+}
+.inputsumbit:hover{
+      height: 40px;
+    width: 86%;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+    color: white;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 1.5s;
+    background-color: #2e4362;
+    border-color: #2e4362;
+
+}
+
+
+
+
+
+
+
+
 .contacts h1{
     margin-top: 80px;
     height: 30px;
@@ -333,13 +628,137 @@ li a:hover{
 span{
     background-color: white;
 }
-.conbox{
+.box9{
     position: relative;
-    height: 50vh;
+    height: 55vh;
     width: 100%;
-    background-image: linear-gradient(160deg,white,rgba(0, 0, 0, 0.81) 30%);
+    background-color: #1a365d;
+    border-top-left-radius: 30%;
+    
+    
+
+}
+.fotterhead{
+    display: flex;
+    height: 45vh;
+    width: 100%;
     border-top-left-radius: 30%;
 }
+.fotter1{
+    height: 150px;
+    width: 300px;
+    background-color:#1a365d;
+    margin-top: 6%;
+    margin-left: 10%;
+    color: white;
+    
+}
+.fotter2{
+    height: 150px;
+    width: 200px;
+    background-color:#1a365d;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+#ql{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.fotter2list{
+    list-style: none;
+
+}
+#fotlist{
+    margin-right: 10px;
+    margin: 7px;
+    font-size: 18px;
+}
+#fotlist a{
+    text-decoration: none;
+    margin-right: 20px;
+color: white;
+}
+
+.fotter3{
+    height: 150px;
+    width: 250px;
+    background-color:#1a365d;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+#social{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+    
+}
+#fot3list{
+    height: 45px;
+    width: 150px;
+    margin-left: 40px;
+    background-color:#1a365d;
+    display: flex;
+    
+}
+#fot3l{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+cursor: pointer;
+
+    
+    
+    
+
+}
+#fot3l a{
+    font-size: 16px;
+   margin-left: 12px;
+   top: 12px;
+   position: relative;
+   color: white;
+
+}
+#fot3l:hover{
+    background-color: #ed8936;
+    transform: translateY(-5px);
+    transition: transform 0.5s ease-in-out;
+    transition: 0.5s;
+}
+.fotterbottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color:  rgba(255, 255, 255, 0.7);
+   
+    margin-left: 7%;
+    width: 90%;
+    height: 60px;
+}
+#fotterlast{
+margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #verticalline{
     top: 70%;
@@ -449,7 +868,6 @@ span{
 .dis{
     color: white;
     left: 25%;
-    
     position: absolute;
 
 
