@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suriya Fabrication</title>
     <link rel="stylesheet" href="css.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
 </head>
 <body>
-    <div class="box1">
-        <div class="box2">
-           <div class="nav">
+  
+      <div class="nav">
                 <img src="Instagram_post_-_8_1-removebg-preview.png" class="icon">
                 <ul class="na">
                     <li><a href="">HOME</a></li>
@@ -19,12 +18,18 @@
                     <li><a href="">PORTFOLIO</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
-            </div>
+            </div>   
+         
+           
+    <div class="box1">
+        <div class="box2">
+          
+         
             <h1 id="fs">Suriya Fabrication</h1>
         <button id="cs"> GET QUOTE</button>
-        <p id="lo1">1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis at natus nulla saepe neque consectetur odio. Numquam culpa nisi nihil, dicta veritatis labore. Expedita maiores adipisci fuga error nulla.</p>
-        <p id="lo2">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis at natus nulla saepe neque consectetur odio. Numquam culpa nisi nihil, dicta veritatis labore. Expedita maiores adipisci fuga error nulla.</p>
-        
+        <p id="lo1">Delivering precision-engineered metal fabrication services with over two decades of expertise. From custom designs to large-scale industrial projects.</p>
+        <!--<p id="lo2">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis at natus nulla saepe neque consectetur odio. Numquam culpa nisi nihil, dicta veritatis labore. Expedita maiores adipisci fuga error nulla.</p>
+        -->
             <a class="btn btn-left"><i class="fa-solid fa-angles-left"></i></a>
             <a class="btn btn-right"><i class="fa-solid fa-angles-right"></i></a>
         </div>
@@ -216,6 +221,8 @@
 
             }
             box1.style.background=`url("img/${imgList[index]}.jpg")center/cover fixed no-repeat`
+            box1.style.transition="background 0.5s";
+            box1.style.backgroundSize="cover";  
             
             
         }
@@ -228,7 +235,8 @@
 
             }
             box1.style.background=`url("img/${imgList[index]}.jpg")center/cover fixed no-repeat`
-            
+            box1.style.transition="background 0.5s";
+            box1.style.backgroundSize="cover";  
         }
     })
         
