@@ -19,10 +19,10 @@
     }
 } 
 
-.box4,.box3{
+.box4,.box3,.ser1,.por1{
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 30%;
+    animation-range: entry 0 cover 20%;
 }
  
 
@@ -512,7 +512,7 @@ li a:hover{
     height: 100%;
     width: 100%;
 }
-.inputname,.inputemail,.inputphone,.inputservice{
+#inputname,#inputemail,#inputphone,#inputservice{
     height: 40px;
     width: 85%;
     border-radius: 7px;
@@ -523,7 +523,7 @@ li a:hover{
     margin-top: 40px;
     
 }
-.inputservice{
+#inputservice{
     height: 45px;
     width: 86%;
     border-radius: 7px;
@@ -533,14 +533,14 @@ li a:hover{
     border-color: rgba(128, 128, 128, 0.778);
     
 }
-.inputname:focus,.inputemail:focus,.inputphone:focus,.inputservice:focus,.inputproject:focus{
+#inputname:focus,#inputemail:focus,#inputphone:focus,#inputservice:focus,#inputproject:focus{
    outline: none;
    border-width: 2px;
     border-color: blue;
 
 }
 
-.inputproject{
+#inputproject{
     height: 100px;
     width: 85%;
     border-radius: 7px;
@@ -550,7 +550,7 @@ li a:hover{
     border-color: rgba(128, 128, 128, 0.778);
     
 }
-.inputsumbit{
+#inputsumbit{
     height: 40px;
     width: 86%;
     border-radius: 7px;
@@ -561,7 +561,7 @@ li a:hover{
     cursor: pointer;
     border-color: #ed8936;
 }
-.inputsumbit:hover{
+#inputsumbit:hover{
       height: 40px;
     width: 86%;
     border-radius: 7px;
@@ -830,3 +830,4 @@ margin-top: 30px;
     position: absolute;
     
 }
+
