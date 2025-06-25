@@ -1,6 +1,7 @@
 
       @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap");
 
+      
       @keyframes appear {
         from {
           opacity: 0;
@@ -81,7 +82,7 @@
 
       .na {
         display: flex;
-        position: absolute;
+        position:relative;
         top: 0;
         bottom: 0;
         left: 0;
@@ -569,8 +570,8 @@
       }
 
       .fotter3 {
-        height: 150px;
-        width: 250px;
+        height: 100px;
+        width: 100px;
         background-color: #1a365d;
         margin-top: 7%;
         margin-left: 15%;
@@ -784,40 +785,65 @@ html {
   /* background: url(../img/1.jpg) center/cover fixed no-repeat; */
 }
 
-/* Make nav links easier to tap on mobile */
-.na li a {
-  padding: 0.5rem 1rem;
-  display: inline-block;
+/* Universal box-sizing for easier layout */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-/* Ensure footer stacks on mobile */
-.fotterhead {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+/* Responsive Typography */
+html {
+  font-size: 16px;
 }
+
+@media (max-width: 1200px) {
+  html { font-size: 15px; }
+  .box3, .box4 { width: 80%; margin-left: 10%; }
+}
+
 @media (max-width: 900px) {
-  .fotterhead {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .fotter1, .fotter2, .fotter3 {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 1rem;
-  }
+  html { font-size: 14px; }
+  .nav { height: auto; }
+  .icon { width: 30%; }
+  .na { flex-direction: column; margin-left: 0; margin-top: 10px; }
+  .box3, .box4 { width: 95%; margin-left: 2.5%; }
+  .ser, .por { flex-direction: column; align-items: center; }
+  .ser1, .por1 { width: 98vw; margin-bottom: 2rem; }
+  .box6, .box7 { height: auto; }
+  .getmain { flex-direction: column; }
+  .getleft, .getright { width: 100%; margin: 0; }
+  .box8, .box9 { height: auto; }
+  .fotterhead { flex-direction: column; align-items: flex-start; }
+  .fotter1, .fotter2, .fotter3 { width: 90%; margin-left: 0; margin-top: 1rem; }
 }
 
-/* Make input fields full width on mobile */
 @media (max-width: 600px) {
+  html { font-size: 13px; }
+  .nav { flex-direction: column; height: auto; }
+  .icon { width: 50%; }
+  .na { flex-direction: column; margin-left: 0; margin-top: 10px; }
+  .box1 { height: 40vh; border-bottom-left-radius: 10%; }
+  #fs { font-size: 2rem; margin-left: 2%; }
+  #cs { width: 95%; left: 0; }
+  .box3, .box4 { width: 99%; margin-left: 0.5%; }
+  .ser1, .por1 { width: 99vw; }
+  .getmain { flex-direction: column; }
+  .getleft, .getright { width: 100%; margin: 0; }
+  .box8, .box9 { height: auto; }
+  .fotterhead { flex-direction: column; align-items: flex-start; }
+  .fotter1, .fotter2, .fotter3 { width: 98%; margin-left: 0; }
   #inputname, #inputemail, #inputphone, #inputservice, #inputproject, #inputsumbit {
     width: 98%;
     font-size: 1rem;
   }
 }
 
-/* Hide scrollbars on mobile for a cleaner look */
-body {
-  -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
+/* Make images always responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
+
+
+
+
