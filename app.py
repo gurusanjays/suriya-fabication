@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
+
 load_dotenv()
 
 # Create DB table
@@ -51,8 +52,40 @@ def submit():
     # Send Email
     send_email(name, email, phone, service, project)
 
-    return "<h2>Thank you for contacting us!</h2>"
-
+    # ...existing code...
+    return '''
+    <html>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+        <style>
+          body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            margin: 0;
+          }
+          .thankyou {
+            font-family: 'Space Grotesk', Arial, sans-serif;
+            font-size: 2.5rem;
+            color: #fff;
+            background: #ed8936;
+            padding: 2rem 3rem;
+            border-radius: 2rem;
+            box-shadow: 0 8px 32px 0 rgba(237,137,54,0.12);
+            text-align: center;
+            animation: popin 1s cubic-bezier(.68,-0.55,.27,1.55);
+          }
+         
+        </style>
+      </head>
+      <body>
+        <div class="thankyou">Thank you for contacting us!</div>
+      </body>
+    </html>
+    '''
+# ...existing code...
 def send_email(name, email, phone, service, project):
     sender = os.getenv('EMAIL_USER')
     password = os.getenv('EMAIL_PASS')
