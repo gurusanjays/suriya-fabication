@@ -82,7 +82,7 @@
 
       .na {
         display: flex;
-        position:relative;
+        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
@@ -570,8 +570,8 @@
       }
 
       .fotter3 {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 250px;
         background-color: #1a365d;
         margin-top: 7%;
         margin-left: 15%;
@@ -843,7 +843,3 @@ img {
   height: auto;
   display: block;
 }
-
-
-
-
