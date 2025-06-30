@@ -870,7 +870,7 @@
       #serdes {
         left: 1.5px;
         right: 1.5px;
-        font-size: 7px;
+        font-size: 8px;
       }
       .box7 {
         width: 100%;
@@ -912,7 +912,7 @@
       #pordes {
         left: 1.5px;
         right: 1.5px;
-        font-size: 10px;
+        font-size: 8px;
         top: 5px;
       }
       .box8{
@@ -1037,7 +1037,7 @@
       }
       .fotterhead {
         display: flex;
-        height: 43vh;
+        
         width: 100%;
       }
       .fotter1 {
