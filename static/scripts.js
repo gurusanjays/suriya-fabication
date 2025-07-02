@@ -59,7 +59,7 @@ btns.forEach((button) => {
             index = (index + 1) % imgList.length;
         }
         // Use Flask static path for images
-        box1.style.background = `url("/static/${imgList[index]}.jpg") center/cover fixed no-repeat`;
+        box1.style.background = `url("/static/img/${imgList[index]}.jpg") center/cover fixed no-repeat`;
         box1.style.transition = "background 0.5s";
         box1.style.backgroundSize = "cover";
     });

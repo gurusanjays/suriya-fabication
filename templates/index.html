@@ -9,13 +9,14 @@
   <meta name="author" content="Suriya Fabrications" />
 
   <title>Suriya Fabrication</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script  src="{{ url_for('static', filename='scripts.js') }}" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Inter:wght@400;600&display=swap"
-    rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -71,8 +72,11 @@
       </li>
     </ul>
     <div class="box4">
+  
       <p>
-        <img src="/suriya-fabication/static/img1.jpg" alt="loading img" id="img" />1.Lorem ipsum dolor
+        <img id="img" src="{{ url_for('static', filename='/img/img1.jpg') }}" alt="Logo" >
+
+        1.Lorem ipsum dolor
         sit amet consectetur adipisicing elit. Laboriosam quidem incidunt cum
         magni magnam nisi necessitatibus, quia culpa temporibus fugiat,
         possimus, eveniet ut error quam ullam enim rem quae reprehenderit.
@@ -83,12 +87,13 @@
         2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
         quidem incidunt cum magni magnam nisi necessitatibus, quia culpa
         temporibus fugiat, possimus, eveniet ut error quam ullam enim rem quae
-        reprehenderit.<img src="img2.jpg" alt="loading img" id="img1" />
+        reprehenderit.<img id="img1" src="{{ url_for('static', filename='/img/img2.jpg') }}" alt="Logo" >
       </p>
     </div>
     <div class="box4">
       <p>
-        <img src="img3.jpg" alt="loading img" id="img" />3.Lorem ipsum dolor
+        <img id="img" src="{{ url_for('static', filename='/img/img3.jpg') }}" alt="Logo" >
+        3.Lorem ipsum dolor
         sit amet consectetur adipisicing elit. Laboriosam quidem incidunt cum
         magni magnam nisi necessitatibus, quia culpa temporibus fugiat,
         possimus, eveniet ut error quam ullam enim rem quae reprehenderit.
